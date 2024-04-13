@@ -2,7 +2,7 @@
 SoftwareSerial NEO6M(2, 3);
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
 
   NEO6M.begin(9600);
 
